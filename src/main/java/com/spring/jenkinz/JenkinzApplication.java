@@ -18,6 +18,7 @@ public class JenkinzApplication {
 	}
 	public static void main(String[] args) {
 		logger.info("application has been executed");
+		logger.info("2 logger added here");
 		SpringApplication.run(JenkinzApplication.class, args);
 	}
 
