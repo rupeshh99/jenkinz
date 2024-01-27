@@ -14,6 +14,7 @@ class JenkinzApplicationTests {
 	@Test
 	void contextLoads() {
 		logger.info("test case executing");
+		logger.info("3 commit is on the way");
 	}
 
 }
